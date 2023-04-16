@@ -1,10 +1,11 @@
 import './App.Scss';
-import Login from './pages/login/Login';
+import Register from './pages/register/Register';
+/* import Login from './pages/login/Login'; */
 
 function App() {
   return (
     <div className="App">
-     <Login/>
+     <Register/>
     </div>
   );
 }
