@@ -3,24 +3,27 @@ import "../register/register.scss";
 
 function Register() {
   return (
-    <div className="login">
+    <div className="register">
       <div className="card">
         <div className="left">
-          <h1>Hello World.</h1>
+          <h1>Kesh Social.</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
             repudiandae sunt assumenda nulla quam temporibus harum ipsum
             similique accusantium ea?
           </p>
-          <span>Don't you have an account?</span>
-          <button type="submit">Register</button>
+          <span>Do you have an account?</span>
+          <button type="submit">Login</button>
         </div>
         <div className="rigth">
-          <h1>Login</h1>
+          <h1>Register</h1>
           <form>
             <input type="text" placeholder="Username" />
+            <input type="Password" placeholder="Name" />
+            <input type="email" placeholder="Email" />
             <input type="Password" placeholder="Password" />
-            <button type="submit">Login</button>
+            <input type="Password" placeholder="confirm your Password" />
+            <button type="submit">Register</button>
           </form>
         </div>
       </div>
