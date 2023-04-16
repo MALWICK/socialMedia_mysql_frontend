@@ -1,12 +1,12 @@
 import React from "react";
-import "../login/login.css";
+import "./login.scss";
 
 function Login() {
   return (
     <div className="login">
       <div className="card">
         <div className="left">
-          <h1>Hello World</h1>
+          <h1>Hello World.</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
             repudiandae sunt assumenda nulla quam temporibus harum ipsum
