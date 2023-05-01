@@ -4,7 +4,7 @@ import {
   RouterProvider,
   createBrowserRouter,
 } from "react-router-dom";
-import "./App.Scss";
+import "./style.scss";
 import Register from "./pages/register/Register";
 import Login from "./pages/login/Login";
 import Navbar from "./components/navbar/Navbar";
@@ -20,7 +20,7 @@ function App() {
 
   const Layout = () => {
     return (
-      <div>
+      <div className="theme-dark">
         <Navbar />
         <div style={{ display: "flex" }}>
           <Leftbar />

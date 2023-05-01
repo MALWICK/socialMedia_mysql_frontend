@@ -15,7 +15,7 @@ function Navbar() {
     <div className="navbar">
       <div className="left">
         <Link to="/" style={{ textDecoration: "none" }}>
-          <span>LamalSocial</span>
+          <span>KeshSocial</span>
         </Link>
         <HomeOutlinedIcon />
         <DarkModeOutlinedIcon />
@@ -30,7 +30,11 @@ function Navbar() {
         <EmailOutlinedIcon />
         <NotificationsOutlinedIcon />
         <div className="user">
-       <img src="https://images.pexels.com/photos/4911253/pexels-photo-4911253.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="alt" />         <span>John Doe</span>
+          <img
+            src="https://images.pexels.com/photos/4911253/pexels-photo-4911253.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            alt="alt"
+          />
+          <span>John Doe</span>
         </div>
       </div>
     </div>
