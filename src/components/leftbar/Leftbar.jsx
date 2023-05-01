@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import "./leftbar.scss";
 import Friends from "../../assets/1.png";
 import Groups from "../../assets/2.png";
@@ -16,12 +16,16 @@ import Fund from "../../assets/13.png";
 
 function Leftbar() {
   return (
-    <div className='leftbar'>
+    <div className="leftbar">
       <div className="container">
         <div className="menu">
           <div className="user">
-{/*             <img src="https://images.pexels.com/photos/10505758/pexels-photo-10505758.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" />
- */}            <span>John Doe</span>
+            <img
+              src="https://images.pexels.com/photos/10505758/pexels-photo-10505758.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              alt=""
+            />
+
+            <span>John Doe</span>
           </div>
           <div className="item">
             <img src={Friends} alt="" />
@@ -44,9 +48,49 @@ function Leftbar() {
             <span>Memories</span>
           </div>
         </div>
+        <hr />
+        <div className="menu">
+          <span>Your shortcuts</span>
+          <div className="item">
+            <img src={Events} alt="" />
+            <span>Events</span>
+          </div>
+          <div className="item">
+            <img src={Gaming} alt="" />
+            <span>Gaming</span>
+          </div>
+          <div className="item">
+            <img src={Gallery} alt="" />
+            <span>Gallery</span>
+          </div>
+          <div className="item">
+            <img src={Videos} alt="" />
+            <span>Videos</span>
+          </div>
+          <div className="item">
+            <img src={Messages} alt="" />
+            <span>Messages</span>
+          </div>
+        </div>
+        <hr />
+        <div className="menu">
+          <span>Others</span>
+          <div className="item">
+            <img src={Fund} alt="" />
+            <span>Fundraiser</span>
+          </div>
+          <div className="item">
+            <img src={Tutorials} alt="" />
+            <span>Tutorials</span>
+          </div>
+          <div className="item">
+            <img src={Courses} alt="" />
+            <span>Courses</span>
+          </div>
+        </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Leftbar
+export default Leftbar;
